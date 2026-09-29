@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Financial_data_warehouse"
+  DTS:DTSID="{A76C1561-C363-4F56-AA43-CDA19F776D60}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Financial_data_warehouse_ServerName]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=HAL9000;User ID=sa;Initial Catalog=financial_data_warehouse;Provider=MSOLEDBSQL.1;Application Name=SSIS-Package-{A76C1561-C363-4F56-AA43-CDA19F776D60}HAL9000.financial_data_warehouse.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIfivjv/BTUOJnSqSg8jHpwAAAAACAAAAAAAQZgAAAAEAACAAAACxYOrXczU6db2R3etnj9ltm0byosF3/dkUP2ycK/I41AAAAAAOgAAAAAIAACAAAADeurscN6GvUX96GXVSiMtktQ5YikV52y08GPbTCb9t5IAAAACqCE94NdC+kvQkX/6usf8Kio2N0CDiW+DDbSucgelxNJ+bSsX7hPDdx3+Ggol7iu2rv9dhmhy9JvzxBUrqIGVLeC+xhIor7Xm9aw1jrbRZp4xn6Y1LTdZ+vQIjZJ8FnuV8Q4T4Pdks7zEg3F/uFu/O3ypQ0tH8acgTON02Q3MQc0AAAAADu+PlmbnFictnwYrGME/hcVWpmPNpP+nBhOWN301dTpaTkK3oXic7OFsX7QzqxhiF7ZdYXuIly7W6DxePpx8n</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

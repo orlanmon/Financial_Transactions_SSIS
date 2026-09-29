@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Software Development\\Projects\\SSIS\\Example_Integration_Services_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45BE544E-FA1F-B554-1E3E-50BF6DDE467E}|Example_Integration_Services_Project.dtproj|D:\\Software Development\\Projects\\SSIS\\Example_Integration_Services_Project\\Finacial_Transactions.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{45BE544E-FA1F-B554-1E3E-50BF6DDE467E}|Example_Integration_Services_Project.dtproj|solutionrelative:Finacial_Transactions.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Finacial_Transactions.dtsx [Design]",
+              "DocumentMoniker": "D:\\Software Development\\Projects\\SSIS\\Example_Integration_Services_Project\\Finacial_Transactions.dtsx",
+              "RelativeDocumentMoniker": "Finacial_Transactions.dtsx",
+              "ToolTip": "D:\\Software Development\\Projects\\SSIS\\Example_Integration_Services_Project\\Finacial_Transactions.dtsx [Design]",
+              "RelativeToolTip": "Finacial_Transactions.dtsx [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-21T16:22:28.453Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

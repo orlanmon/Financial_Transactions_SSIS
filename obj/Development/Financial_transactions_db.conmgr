@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Financial_transactions_db"
+  DTS:DTSID="{9A0BC08A-C1F7-4CC7-9F30-C1C52309198C}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ServerName">@[$Project::Financial_transactions_db_ServerName]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=HAL9000;User ID=sa;Initial Catalog=financial_transactions_db;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-Package-{9A0BC08A-C1F7-4CC7-9F30-C1C52309198C}HAL9000.financial_transactions_db.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIfivjv/BTUOJnSqSg8jHpwAAAAACAAAAAAAQZgAAAAEAACAAAACNspBAWjhAxJiZo/JlHDTSqij2FfIsEQUurTqysJaMaAAAAAAOgAAAAAIAACAAAAB0d//cSAurytfCMUrutRPB0yQ24u5Y8J8yFxzFKxMDY4AAAABdPDw9XSlNTZtv/OpEYKTtZynJ7o8cXQGCKQ0UUBEnKWTNNPurm8DptX1GlGQD4xbu6HaNSZi6pK+94HZNpx9OEaA6aMJvTiK8uKx2hl2qFdSp7hc25guAjMbD2Nsi11J/gn3Cdw02joGpedvjjdEZGRw/WkPIgUEp5tSnkQrQi0AAAAAw/wqv8zMZUIgEFff3prpMfxieOLM1ivEKMjRa0zc7+dXGI5OjZwPP+Qx2h1Ag1FacqEDS1Luw6q/WPUgHmAEu</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

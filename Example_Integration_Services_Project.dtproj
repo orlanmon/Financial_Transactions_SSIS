@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">HAL9000</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIfivjv/BTUOJnSqSg8jHpwAAAAACAAAAAAAQZgAAAAEAACAAAADI/Zs6WEe8tOkjtA70xCzcrDGfKhD5vx/jwPAgQCetdwAAAAAOgAAAAAIAACAAAACwQpJHFqflUGfMO1h7pknNaAxdTFUEUb00n2PGTyWOXpAAAADTUbXoVxrHIpo5o9/2PUZ60A9L6yvhpTfgf3onUBm7TjLz10RyPMNlsWDqgCgMwHwZgEllZhYyA1KBUoN2HOl2DM1T300vgTLlr/Pq68I9QWr00Cqg+7zBeaqxBqgBR2ZmGV4G0tUbfwGCzzMxHH5HTciaHq68fYyHggu0KrmP8yCJp01oDs6frZHTyM0bK0NAAAAAUN1tJgaXp3BxV52nfZuwAJ8CPfn1sJ5+cYGv5olUWLbLn1opBsNzcabF61RVdE1n0XH5yBrRdeweCzFVyzaQxQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAIfivjv/BTUOJnSqSg8jHpwAAAAACAAAAAAAQZgAAAAEAACAAAAD0EWh+K93UrdcUcpTqPB6kUmaECOYb3Dnu8OGcFGxBSAAAAAAOgAAAAAIAACAAAADwQYd9R2AryheW5ppTLlHuTD/wyc6SQ0Ju0vsWPokYWpAAAADEaZjk2EVU1KI0ZZf0jJlWNHj8e/MkcdapBha2gU7OVa0ds6mpPR8AEbEwS1cYpUlnC5LMVi4GkwCtJ/jcaeLl+t0G2C7e/TdKW7od3meT/4QOg6F9UmGfcs5N6jQUThztsAGYat1X3YoZUvmRo9DplHVxQI7ZHz3TjTsktYtmt3A1IXpTvVQ/+igMrKM4NFhAAAAAG3CESMeCc2aocp7svKQ06VwruxylG4nS8gyc6XQhLp07hFZbTDAyvA99aF3HKHGSgkRCh0ME9DAIOUQ61k5MNg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -965,8 +965,8 @@
   <ControlFlowParts />
   <Miscellaneous>
     <ProjectItem>
-      <Name>Readme.txt.txt</Name>
-      <FullPath>Readme.txt.txt</FullPath>
+      <Name>Readme_Development.txt</Name>
+      <FullPath>Readme_Development.txt</FullPath>
     </ProjectItem>
   </Miscellaneous>
   <Configurations>
